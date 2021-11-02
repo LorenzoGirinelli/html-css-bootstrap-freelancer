@@ -1,0 +1,30 @@
+header{
+    background-color: rebeccapurple;
+    padding: 20px 0;
+}
+.brand, .burger{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.menu{
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+.burger{
+    text-align: right;
+}
