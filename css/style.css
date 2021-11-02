@@ -28,3 +28,30 @@ ul{
 .burger{
     text-align: right;
 }
+.main-top{
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+.main-top img{
+    width: 90px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.main-top h2{
+    font-size: 25px;
+}
+.star{
+    /* padding: 10px 0; */
+}
+.main-top-menu li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.main-top-menu a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
