@@ -44,7 +44,7 @@ ul{
     font-size: 25px;
 }
 .star{
-    /* padding: 10px 0; */
+    text-align: center;
 }
 .main-top-menu li{
     display: inline-block;
@@ -61,4 +61,38 @@ ul{
 }
 img{
     width: 100%;
+    margin: 15px 0;
+}
+.main_bottom_green_container{
+    width: 100%;
+    margin: auto;
+    padding: 20px 20%;
+    color: white;
+    background-color: #1abc9c;
+}
+.main_bottom_green_container h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+.main_bottom_white_container{
+    width: 100%;
+    margin: auto;
+    padding: 20px 20%;
+    color: black;
+}
+.main_bottom_white_container h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+.main_bottom_white_container li{
+    line-height: 60px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.message-btn{
+    line-height: 80px;
+}
+.btn-green{
+    padding: 8px 14px;
+    background-color: #1abc9c;
+    border-radius: 6px;
 }
