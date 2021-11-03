@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap freelancer</title>
+    <title>Bootstrap</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -177,11 +177,25 @@
                     </div>
 
                     <div class="form-container">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nulla saepe consectetur fugiat reprehenderit! Nulla reiciendis ex, quasi porro esse, assumenda exercitationem nemo laboriosam eligendi laborum blanditiis numquam iure provident.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam adipisci quia porro delectus, impedit tenetur voluptate voluptatum quos illo quod pariatur minima nobis quasi blanditiis? Eligendi est voluptate tenetur nihil!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolore, incidunt fuga saepe consequatur, provident voluptas beatae eius atque, quia amet. Ad, provident eius placeat maxime vero delectus deserunt animi.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ut iure assumenda, optio animi reiciendis aut corrupti quisquam inventore qui nulla nostrum voluptatem, dolore atque. Voluptatem accusamus obcaecati placeat eveniet.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur perspiciatis, quidem iusto iste doloremque aspernatur eaque animi similique quaerat exercitationem cumque esse temporibus et illo qui asperiores. Impedit, illo maiores!
+                        <form>
+                            <div class="mb-3">
+                              <label for="customer-name" class="form-label sr-only">Name</label>
+                              <input type="text" class="form-control" id="customer-name" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="customer-email" class="form-label sr-only">Email Address</label>
+                                <input type="text" class="form-control" id="customer-name" placeholder="Email Address">
+                              </div>
+                              <div class="mb-3">
+                                <label for="customer-phone" class="form-label sr-only">Phone Number</label>
+                                <input type="text" class="form-control" id="customer-name" placeholder="Phone Number">
+                              </div>
+                              <div class="mb-3">
+                                <label for="customer-mesage" class="form-label sr-only">Message</label>
+                                <textarea class="form-control" id="customer-mesage" cols="30" rows="8" placeholder="Message"></textarea>
+                              </div>
+                              <a href="#"type="button" class="btn btn-success">Send</a>
+                          </form>
                     </div>
                 </div>
             </div>
@@ -196,17 +210,23 @@
                <div class="row row-cols-1 row-cols-md-3">
                     <div class="col">
                        <div class="footer-col-content">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempora earum magni illum, tempore quasi ratione molestias vel nam sequi laudantium consequuntur, maiores sed obcaecati voluptas amet odit consectetur delectus!
+                            <h3>location</h3>
+                            <span>2215 John Drive Clark, MO 54243</span>
                        </div>
                     </div>
                     <div class="col">
                         <div class="footer-col-content">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempora earum magni illum, tempore quasi ratione molestias vel nam sequi laudantium consequuntur, maiores sed obcaecati voluptas amet odit consectetur delectus!
+                             <h3>around the web</h3>
+                             <div class="items-footer"><i class="fab fa-facebook-f"></i></div>
+                             <div class="items-footer-g"><i class="fab fa-google-plus-g"></i></div>
+                             <div class="items-footer"><i class="fab fa-facebook-f"></i></div>
+                             <div class="items-footer"><i class="fab fa-linkedin-in"></i></div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="footer-col-content">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempora earum magni illum, tempore quasi ratione molestias vel nam sequi laudantium consequuntur, maiores sed obcaecati voluptas amet odit consectetur delectus!
+                            <h3>about freelancer</h3>
+                            <p>Freelancer is a free to use, open source Bootstrap theme created by <span class="green-bootstrap">Start Bootstrap</span>.</p>
                         </div>
                     </div>
                </div>
@@ -214,7 +234,7 @@
         </div>
         <div class="footer-bottom">
             <div class="container">
-                Footer bottom
+                <span>Copyright © Your Website 2019</span>
             </div>
         </div>
     </footer>
